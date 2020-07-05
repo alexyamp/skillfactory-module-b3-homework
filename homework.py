@@ -17,5 +17,5 @@ with tag('html'):
             
 result = indent(doc.getvalue())
 
-with open('/Users/admin/Downloads/test.html', 'w') as f:
+with open('test.html', 'w') as f:
     f.write(result)
